@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+			<beans xmlns="http://www.springframework.org/schema/beans"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xmlns:context="http://www.springframework.org/schema/context"
+				xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+			    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+				
+				
+	
+				
+             <bean id="collect" class="com.ob.assignment4.Collect">
+             <property name="list">
+             <list>
+             <value>100</value>
+             <value>200</value>
+             <value>300</value>
+             <value>400</value>
+             </list>
+             </property>
+             <property name="set">
+             <set>
+             <value>1</value>
+              <value>2</value>
+               <value>3</value>
+                <value>4</value>
+             </set>
+             </property>
+             <property name="map">
+             <map>
+             <entry key="1" value="Abhisha"></entry>
+              <entry key="2" value="Betty"></entry>
+               <entry key="3" value="Catherine"></entry>
+                <entry key="4" value="Diago"></entry>
+             </map>
+             </property>
+             <property name="property">
+             <props>
+             <prop key="one" >Good</prop> 
+             <prop key="two">Need</prop>
+             <prop key="three">To</prop>
+             <prop key="four">Wait</prop>
+             </props>
+             </property>
+             </bean>
+			</beans>
