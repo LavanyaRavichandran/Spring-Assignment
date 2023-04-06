@@ -29,42 +29,7 @@ public class Child {
 	@Autowired
 	private Pet pet;
 	
-//	public Pet getPet() {
-//		return pet;
-//	}
-//	public void setPet(Pet pet) {
-//		this.pet = pet;
-//	}
-//	public String getName() {
-//		return name;
-//	}
-//	public void setName(String name) {
-//		this.name = name;
-//	}
-//	public int getAge() {
-//		return age;
-//	}
-//	public void setAge(int age) {
-//		this.age = age;
-//	}
-//	public String getGender() {
-//		return gender;
-//	}
-//	public void setGender(String gender) {
-//		this.gender = gender;
-//	}
-//	public int getStandard() {
-//		return standard;
-//	}
-//	public void setStandard(int standard) {
-//		this.standard = standard;
-//	}
-//	public Child(List<String> hobbies, Set<String> subjectsStudying, Map<String, String> friendsAndGender) {
-//		super();
-//		this.hobbies = hobbies;
-//		this.subjectsStudying = subjectsStudying;
-//		this.friendsAndGender = friendsAndGender;
-//	}
+
 	public void display() {
 		System.out.println(name);
 		System.out.println(age);
